@@ -1,0 +1,8 @@
+#do not version the folder recursively created by maven
+target/
+#do not version the folder recursively created by gradle
+build/
+.gradle
+.idea
+#always include THIS file itself
+!.gitignore
