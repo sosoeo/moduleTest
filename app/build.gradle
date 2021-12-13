@@ -22,16 +22,6 @@ dependencies {
     implementation "com.formdev:flatlaf:1.6.5"
 }
 
-application {
-    mainModule.set('moduleTest.app.main')
-    mainClass.set('moduleTest.App')
-}
-
-java {
-
-}
-
-
 tasks.named('test') {
     useJUnitPlatform()
 }
